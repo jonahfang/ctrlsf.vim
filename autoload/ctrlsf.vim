@@ -372,7 +372,7 @@ func! s:OpenAndDraw() abort
     call ctrlsf#hl#HighlightMatch()
 
     " scroll up to top line
-    1normal z<CR>
+    "1normal z<CR>
     call ctrlsf#NextMatch(1)
     silent! earlier 1f
 endf
